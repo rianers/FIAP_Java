@@ -12,14 +12,14 @@ public class FileExistsTest {
 			File arquivo = new File(path);
 			FileReader fr = new FileReader(arquivo);
 
-			System.out.println("Abriu!");
+			System.out.println("Open!");
 			fr.close();
 
 		} catch (FileNotFoundException e) {
 			System.out.println("Could not open file!");
 
 		} catch (IOException e) {
-			
+
 			e.printStackTrace();
 		}
 
